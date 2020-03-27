@@ -12,7 +12,12 @@ INTRODUCTION                                               *symfonyHelper-intro*
 Symfony helper vim plugin has been created with intention to help developing in
 PHP Symfony https://symfony.com
 
-All functions are wrapper to Symfony commands.
+All functions are wrappers to Symfony commands.
+
+To install by Plug:
+>
+  Plug 'zordsdavini/vim-symfony-helper'
+>
 
 ================================================================================
 GENERATE SETTERS AND GETTERS                     *symfonyHelper-setters-getters*
