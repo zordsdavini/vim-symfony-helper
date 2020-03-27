@@ -1,0 +1,22 @@
+*symfonyHelper.txt*
+                                                                 *symfonyHelper*
+
+================================================================================
+CONTENTS                                                *symfonyHelper-contents*
+  1. Introduction..........................................|symfonyHelper-intro|
+  2. Generate setters and getters................|symfonyHelper-setters-getters|
+
+================================================================================
+INTRODUCTION                                               *symfonyHelper-intro*
+
+Symfony helper vim plugin has been created with intention to help developing in
+PHP Symfony https://symfony.com
+
+All functions are wrapper to Symfony commands.
+
+================================================================================
+GENERATE SETTERS AND GETTERS                     *symfonyHelper-setters-getters*
+
+The idea is to call helper function to execute Symfony command:
+
+  bin/console make:entity --regenerate App\\Entity\\Example
