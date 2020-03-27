@@ -1,7 +1,7 @@
 function! symfonyHelper#generateSettersAndGetter()
 
-endFunction
+endfunction
 
 function! symfonyHelper#generateSettersAndGetterForCurrentFile(file)
 
-endFunction
+endfunction

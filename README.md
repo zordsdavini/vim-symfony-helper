@@ -1,2 +1,2 @@
-# vim-simfony-helper
+# vim-symfony-helper
 Various commands to be executed from ViM
