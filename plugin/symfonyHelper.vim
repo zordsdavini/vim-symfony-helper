@@ -3,5 +3,5 @@ function! symfonyHelper#generateSettersAndGetter()
 endfunction
 
 function! symfonyHelper#generateSettersAndGetterForCurrentFile()
-    execute "!bin/console make:entity --regenerate App\\Entity\\" . expand('%:t:r')
+    execute "!bin/console make:entity --regenerate App\\\\Entity\\\\" . expand('%:t:r')
 endfunction
