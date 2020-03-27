@@ -19,4 +19,14 @@ GENERATE SETTERS AND GETTERS                     *symfonyHelper-setters-getters*
 
 The idea is to call helper function to execute Symfony command:
 
+>
   bin/console make:entity --regenerate App\\Entity\\Example
+<
+
+To generate all setters and getters in project call:
+
+  :call symfonyHelper#generateSettersAndGetter()
+
+To generate for current file call:
+
+  :call symfonyHelper#generateSettersAndGetterForCurrentFile()
